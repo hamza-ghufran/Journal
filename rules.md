@@ -3,8 +3,6 @@ Rules:
 This Journal is mainly for keeping a record of various bits of knowledge accumulated in my quest of becoming a true developer. 
 Feel free to to drop in any suggestions and feel free to correct my understanding. 
 
-The plan is to make siginificant entries when I feel like, for starters I'll try to make atleast one entry per week
-
 Should Stick to the following:
 
 1. Each entry **should** have the following as a precursor
@@ -17,6 +15,7 @@ Should Stick to the following:
 
 Anything worth noting down from: 
 
+* Something which I thought I know, but do not. 
 * Forums that I come across.
 * Any interesting subject being addressed at work
 * Books, PDFs, discussion etc. 
