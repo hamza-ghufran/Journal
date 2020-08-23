@@ -19,54 +19,39 @@ There’s a bunch of property values. By default the listed elements have `block
 * p 
 * li
 * section
-
 ![Block](./img/css-inline-block/1.png)
-
 A block element starts from a new line and will occupy the whole width of it's wrapping container. 
 DIV2 above takes up the whole width. 
 
-## display:'inline'
+## `display:'inline'`
 
 Now lets say that you want to place another div element next to DIV2. 
 Lets do that: 
-
 ![Block](./img/css-inline-block/2.png)
-
 Tada, that won't work.	
-Let's assign a `class='inline-elm'` to both DIV2 and DIV3
-
-and add the folliwng css properties: 
-
+Let's assign a `class='inline-elm'` to both DIV2 and DIV3 and add the folliwng css properties: 
 ```
 inline-elm{
    display:'inline'
 }
 ```
-
 ![Block](./img/css-inline-block/3.png)
-
 The inline property displays an element as an inline element. In other words, inline elements do NOT start on a new line and only take up as much width as its content.
 
 As much width as its content ? 
 Let me explain: Using div as a button type component.
-
 ```
 .inline-btn{
     display:'inline'
     border:'1px solid black'
 }
 ```
-
 ![Block](./img/css-inline-block/4.png)
-
-You don't like that, I know. 
-
+You don't like that. 
 ![Block](./img/css-inline-block/5.png)
-
-YES I KNOW, this is the content, the `inline` will acquire as much width as its content. Hope its clear now. 
+YES I KNOW, this is the content, an `inline` element will acquire as much width as its content. Hope it's clear now. 
 
 To fix this, can we do something like this ? 
-
 ```
 .inline-btn {
   display: inline;
@@ -74,26 +59,20 @@ To fix this, can we do something like this ?
   height: 100px; /* ❌ won't have any effect */
 }
 ```
-
 No we can't, width and height property has no effect on inline elements.
-
 How to solve this now ? 
 
 ## display:'inline-block'
 
 Introducing `inline-block`. Displays an element as an inline-level block container. You CAN set height and width values.
-
 ```
 .inline-btn {
   display: inline-block;
   width: 100px; /* ✅  yes, it will work */
   height: 100px; /* ✅  yes, it will work */
 }
-
 ````
-
 It’s essentially the same thing as inline, except that you can set height and width values.
-
 ![Block](./img/css-inline-block/6.png)
 
 
