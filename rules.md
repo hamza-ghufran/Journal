@@ -1,25 +1,21 @@
-Rules: 
+# Rules: 
 
 This Journal is mainly for keeping a record of various bits of knowledge accumulated in my quest of becoming a true developer. 
 Feel free to to drop in any suggestions and feel free to correct my understanding. 
 
-Should Stick to the following:
+## Should Stick to the following:
 
-1. Each entry **should** have the following as a precursor
+* Each entry **should** have the following as a precursor
 
 * Log: DD-YY-MM
 * Topic: The subject addressed by the entry
 * Tag: To what field does the entry belongs to.
 
-2. When To make an Entry. 
+## When To make an Entry. 
 
-Anything worth noting down from: 
+* Anything worth noting down from: 
 
-* Something which I thought I know, but do not. 
-* Forums that I come across.
-* Any interesting subject being addressed at work
-* Books, PDFs, discussion etc. 
-
-3. Why Public ? 
-
-* To promote open dialogue and challenge my understanding. 
+1. Not knowing something that I should know or need to know.
+2. Forums that I come across.
+3. Any interesting subject being addressed at work
+4. Books, PDFs, discussion etc. 
