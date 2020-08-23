@@ -29,7 +29,7 @@ Now lets say that you want to place another div element next to DIV2.
 Lets do that: 
 ![Block](./img/css-inline-block/2.png)
 Tada, that won't work.	
-Let's assign a `class='inline-elm'` to both DIV2 and DIV3 and add the folliwng css properties: 
+Let's assign a `class='inline-elm'` to both DIV2 and DIV3 and add the following css property: 
 ```
 inline-elm{
    display:'inline'
@@ -84,25 +84,5 @@ Now your friend Charlie wants to join you, but because she is the daughter of th
 
 Your friend Jack is also attending the concert. Now your friend Charlie doesn't really like him. So she tells her mom to assign him a block seat. That way Jack is not seated next to you. Instead he sits in the next row.
 
-
 ## To wrap it up
-
 ![Block](./img/css-inline-block/7.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
