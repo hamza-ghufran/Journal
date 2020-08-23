@@ -20,6 +20,7 @@ There’s a bunch of property values. By default the listed elements have `block
 * li
 * section
 ![Block](./img/css-inline-block/1.png)
+
 A block element starts from a new line and will occupy the whole width of it's wrapping container. 
 DIV2 above takes up the whole width. 
 
@@ -28,6 +29,7 @@ DIV2 above takes up the whole width.
 Now lets say that you want to place another div element next to DIV2. 
 Lets do that: 
 ![Block](./img/css-inline-block/2.png)
+
 Tada, that won't work.	
 Let's assign a `class='inline-elm'` to both DIV2 and DIV3 and add the following css property: 
 ```
@@ -36,6 +38,7 @@ inline-elm{
 }
 ```
 ![Block](./img/css-inline-block/3.png)
+
 The inline property displays an element as an inline element. In other words, inline elements do NOT start on a new line and only take up as much width as its content.
 
 As much width as its content ? 
@@ -47,10 +50,12 @@ Let me explain: Using div as a button type component.
 }
 ```
 ![Block](./img/css-inline-block/4.png)
-You don't like that. 
-![Block](./img/css-inline-block/5.png)
-YES I KNOW, this is the content, an `inline` element will acquire as much width as its content. Hope it's clear now. 
 
+You don't like that. 
+
+![Block](./img/css-inline-block/5.png)
+
+YES I KNOW, this is the content, an `inline` element will acquire as much width as its content. Hope it's clear now. 
 To fix this, can we do something like this ? 
 ```
 .inline-btn {
