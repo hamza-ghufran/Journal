@@ -1,8 +1,10 @@
-* Log: 22nd August 2020
-* Topic: display: `inline-block vs block vs inline`
-* Tag: `css`
 
-## Intro
+```
+* Log: 22nd August 2020
+* Topic: display: inline-block vs block vs inline
+* Tag: css
+```
+
 
 Often times when you are performing some repitive task, you get comfortable with what it is and fail to find a better - more optimal solution. Or, you overlook some very basic concepts and remain content with the outcome you produce. 
 
@@ -24,7 +26,7 @@ There’s a bunch of property values. By default the listed elements have `block
 A block element starts from a new line and will occupy the whole width of it's wrapping container. 
 DIV2 above takes up the whole width. 
 
-## `display:'inline'`
+## `display:inline`
 
 Now lets say that you want to place another div element next to DIV2. 
 Lets do that: 
@@ -67,7 +69,7 @@ To fix this, can we do something like this ?
 No we can't, width and height property has no effect on inline elements.
 How to solve this now ? 
 
-## display:'inline-block'
+## `display:inline-block`
 
 Introducing `inline-block`. Displays an element as an inline-level block container. You CAN set height and width values.
 ```
