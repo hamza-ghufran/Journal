@@ -16,6 +16,6 @@ Feel free to to drop in any suggestions and feel free to correct my understandin
 * Anything worth noting down from: 
 
 1. Not knowing something that I should know or need to know.
-2. Forums that I come across.
+2. Interesting bits from forums that I come across.
 3. Any interesting subject being addressed at work
 4. Books, PDFs, discussion etc. 

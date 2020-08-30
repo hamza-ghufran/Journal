@@ -6,7 +6,7 @@
 
 Often times when you are performing some repitive task, you get comfortable with what it is and fail to find a better - more optimal solution. Or, you overlook some very basic concepts and remain content with the outcome you produce. 
 
-I am at the end of my two year journey as a web developer and you might expect me to have the right answer when asked about the difference between div-inline, inline and block. I did not have the right answer uptil NOW. 
+I am at the end of my two year journey as a web developer and you might expect me to have the right answer when asked about the difference between div-inline, inline and block. I did not have the right answer up until NOW. 
 
 
 ## `display` property. 
@@ -19,7 +19,7 @@ There’s a bunch of property values. By default the listed elements have `block
 * p 
 * li
 * section
-![Block](./img/css-inline-block/1.png)
+![Block](./1.png)
 
 A block element starts from a new line and will occupy the whole width of it's wrapping container. 
 DIV2 above takes up the whole width. 
@@ -28,7 +28,7 @@ DIV2 above takes up the whole width.
 
 Now lets say that you want to place another div element next to DIV2. 
 Lets do that: 
-![Block](./img/css-inline-block/2.png)
+![Block](./2.png)
 
 Tada, that won't work.	
 Let's assign a `class='inline-elm'` to both DIV2 and DIV3 and add the following css property: 
@@ -37,7 +37,7 @@ inline-elm{
    display:'inline'
 }
 ```
-![Block](./img/css-inline-block/3.png)
+![Block](./3.png)
 
 The inline property displays an element as an inline element. In other words, inline elements do NOT start on a new line and only take up as much width as its content.
 
@@ -49,11 +49,11 @@ Let me explain: Using div as a button type component.
     border:'1px solid black'
 }
 ```
-![Block](./img/css-inline-block/4.png)
+![Block](./4.png)
 
 You don't like that. 
 
-![Block](./img/css-inline-block/5.png)
+![Block](./5.png)
 
 YES I KNOW, this is the content, an `inline` element will acquire as much width as its content. Hope it's clear now. 
 To fix this, can we do something like this ? 
@@ -78,7 +78,7 @@ Introducing `inline-block`. Displays an element as an inline-level block contain
 }
 ````
 It’s essentially the same thing as inline, except that you can set height and width values.
-![Block](./img/css-inline-block/6.png)
+![Block](./6.png)
 
 
 ## Explained in Non-Dev terms: [Inspired from external source] 
@@ -90,4 +90,4 @@ Now your friend Charlie wants to join you, but because she is the daughter of th
 Your friend Jack is also attending the concert. Now your friend Charlie doesn't really like him. So she tells her mom to assign him a block seat. That way Jack is not seated next to you. Instead he sits in the next row.
 
 ## To wrap it up
-![Block](./img/css-inline-block/7.png)
+![Block](./7.png)
