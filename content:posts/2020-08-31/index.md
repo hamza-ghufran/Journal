@@ -42,7 +42,9 @@ On reading Alpha's properties, he was shocked to find out that both, him and Alp
 
 Amazed by what he had just discovered he asked Alpha..
 **Beta:** _"So what makes you different: I have the same width, height, padding, margin & border, yet you appear different in size and structure, how's that possible ?"_
+
 **Alpha:** _"Are you aware of the reality of Box model"._
+
 **Beta:** _"Nope! Never heard of it"_
 
 Let me show you:
@@ -163,6 +165,7 @@ Alpha had finally found his apprentice. Time for him to pass down his `alpha kno
 ### Position Property
 
 **Alpha**: *"Beta, are you familiar with position properties ?"*
+
 **Beta**: *"Naah!"*
 
 So listen carefully: 
@@ -170,6 +173,8 @@ So listen carefully:
 In our world of the document, whenever an element is inserted into the document `position: static` is set as the **default** positioning property. 
 
 <img src="./2-2.png" height="400"/>
+
+
 
 
 Basically what it does is, it tells the element to follow the other elements in the document flow. In other words, the element will stick to the normal page flow.
@@ -214,14 +219,22 @@ Alpha & Beta both set their position properties as `relative`
 
 <img src="./2-3.png" height="300" />
 
+
+
 **Alpha:** *"You feel no difference, right?"*
+
 **Beta:** *"Yup, all the same"*
+
 **Alpha:** *"Alright, try this spell - `z-index: -1`"*
 
 <img src="./2-4.png" height='300'/>
 
+
+
 **Beta:** *" WAY NO!!! I am invisible"*
+
 **Alpha:** *" Not exactly, you're just below the playground now, or I may say, the playground is over you, ;)"*
+
 **Alpha:** *"Reset `z-index: 0` now. Moving ahead, similarly, by altering my `left` & `z-index` property, I can place myself above you"*
 
 ```css
@@ -239,7 +252,10 @@ Alpha & Beta both set their position properties as `relative`
 
 <img src="./2-5.png" height="300" />
 
+
+
 **Beta:** *"So this is how they design their pretty websites with there pretty png(s) floating on top of each other, hmm.."*
+
 **Alpha:** *"Well...  Another spell exist which can make you transcend this document flow, and you can chill anywhere on the page while having your feet planted withing a container"* 
 
 #### Introducing `position: absolute` property
@@ -275,9 +291,14 @@ Going back to the playground...
 
 ![Block](./2-6.png)
 
+
+
 **Beta:** *"I have completely escaped from the playground, how is that-? Should I not be placed on the top left corner like how the playground text was placed. Since I have top & left set to 0"*
+
 **Alpha:** *"Incorrect, the absolute property makes the element respond not to the dimensions of its parent (playground), but the document itself:"*
+
 **Beta:** *''So how do I make myself positioned absolutely from my parent element (playground)"*
+
 **Alpha:** *"You set the parent (playground) as `position: relative`"*
 
 ```css
@@ -290,11 +311,13 @@ Going back to the playground...
 ![Block](/Users/hamza/code/journal/content:posts/2020-08-31/2-7.png)
 
 **Alpha:** *"Now that you've got a sense of this, let's explore further"*
+
 **Beta:** zZ 😴 
 
 #### Introducing `position: fixed` & `position: sticky`
 
 **Alpha:** *"You see these users, scrolling all day long, Don't you wanna just stick to their screen and irritate them!!"*
+
 **Beta:** *"We can do that.."*
 
 The `fixed` value is similar to `absolute` as it can help you position an element anywhere relative to the document. This value is unaffected by scrolling. 
@@ -309,7 +332,9 @@ The `fixed` value is similar to `absolute` as it can help you position an elemen
 ![](/Users/hamza/code/journal/content:posts/2020-08-31/2-8.gif)
 
 **Beta:** *"Bumpy Ride"*
+
 **Alpha:** "It only lacks the surprise element. I mean, as soon as the user starts scrolling, the element scrolls along"
+
 **Alpha:** "*Do you think we can achieve something like*: ***once a user has scrolled past a certain point in the viewport, fix the position of the element to that location so it remains persistently displayed like an element with a `fixed` value.***"
 
 **Beta:** *"Sticky.....easy guess 😏 "*
