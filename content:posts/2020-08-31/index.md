@@ -170,7 +170,7 @@ Alpha had finally found his apprentice. Time for him to pass down his `alpha kno
 
 So listen carefully: 
 
-In our world of the document, whenever an element is inserted into the document `position: static` is set as the **default** positioning property. 
+In our world of the document, whenever an element is inserted/added to this document `position: static` is set as the **default** position property. 
 
 <img src="./2-2.png" height="400"/>
 
@@ -308,7 +308,7 @@ Going back to the playground...
 }
 ```
 
-![Block](/Users/hamza/code/journal/content:posts/2020-08-31/2-7.png)
+![Block](./2-7.png)
 
 **Alpha:** *"Now that you've got a sense of this, let's explore further"*
 
@@ -329,7 +329,7 @@ The `fixed` value is similar to `absolute` as it can help you position an elemen
 }
 ```
 
-![](/Users/hamza/code/journal/content:posts/2020-08-31/2-8.gif)
+![](./2-8.gif)
 
 **Beta:** *"Bumpy Ride"*
 
@@ -362,9 +362,9 @@ Assessing sticky position property to child elements can be tricky: Check [this]
 }
 ```
 
-![](/Users/hamza/code/journal/content:posts/2020-08-31/2-9.gif)
+![](./2-9.gif)
 
-The Beta element will be relatively positioned until the scroll location of the viewport reaches a point where the element will be `50px` from the top of the viewport. At that point, the element becomes sticky and remains at a `fixed` position `50px` top of the screen.
+The Beta element will be relatively positioned until the scroll location of the viewport reaches a point where the element will be `50px` from the top of the viewport. At that point, Beta becomes sticky and remains at a `fixed` position `50px` top of the screen.
 
 ### Wrapping Up
 
